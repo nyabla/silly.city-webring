@@ -1,0 +1,16 @@
+{
+    "rewrites": [
+        {
+            "source": "/next",
+            "destination": "/api/next"
+        },
+        {
+            "source": "/prev",
+            "destination": "/api/prev"
+        },
+        {
+            "source": "/random",
+            "destination": "/api/random"
+        }
+    ]
+}

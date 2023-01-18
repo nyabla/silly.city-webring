@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to silly.city</title>
+    <style>
+        body {
+            background: linear-gradient(90deg, #fca4cbee 0%, #fcd4a4ee 100%), url('evo.png');
+            font-family: monospace;
+            padding: 40px 10px;
+            font-size: 12pt;
+        }
+        h1, a {
+            color: #ff0073;
+        }
+        body > div {
+            max-width: 800px;
+            margin: auto;
+        }
+        textarea {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>welcome to silly city!</h1>
+        <p>silly city is a webring for</p>
+        <ul>
+            <li>nerds</li>
+            <li>sillies</li>
+            <li>queers</li>
+            <li>miau</li>
+        </ul>
+        <p>
+            to join, <a href="https://github.com/nyabla/silly.city-webring">submit a PR</a>
+            with a little note and your details in
+            <a href="https://github.com/nyabla/silly.city-webring/blob/master/ring/citizens.json">
+            /src/ring/citizens.json</a> (a username, and the address of your site)
+            <br>
+            then use the iframe navbar or use the links!
+        </p>
+
+        <h2>iframe</h2>
+        <textarea>&lt;iframe src="https://silly.city/embed.html?user=[your username]" title="silly.city webring" frameborder="no"&gt;&lt;/iframe&gt;</textarea>
+        
+        <h2>links</h2>
+        <ul>
+            <li>next: https://silly.city/next?user=[your username]</li>
+            <li>previous: https://silly.city/prev?user=[your username]</li>
+            <li>webring: https://silly.city/</li>
+            <li>(optional) random: https://silly.city/random</li>
+        </ul>
+
+        <iframe src="/embed.html?user=silly.city" title="silly.city webring" frameborder="no" width="100%"></iframe>
+
+        <h2>citizens of silly city</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>User</th>
+                    <th>Website</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>dr.google</td><td><a href="https://google.com">https://google.com</a></td></tr><tr><td>silly.city</td><td><a href="https://silly.city/">https://silly.city/</a></td></tr><tr><td>nela</td><td><a href="https://www.nyabla.net/">https://www.nyabla.net/</a></td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
