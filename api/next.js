@@ -8,12 +8,15 @@ export default function handler(request, response) {
         return
     }
 
-    let refererUrl = new URL(request.headers.referer)
-    if (refererUrl.searchParams.has('user')) {
-        console.log('referer')
-        response.redirect(next(refererUrl.searchParams.get('user')).url)
-        return
+    if ('referer' in request.headers) {
+        let refererUrl = new URL(request.headers.referer)
+        if (refererUrl.searchParams.has('user')) {
+            console.log('referer')
+            response.redirect(next(refererUrl.searchParams.get('user')).url)
+            return
+        }
     }
+    
     console.log('random')
     response.redirect(random().url)
 }
