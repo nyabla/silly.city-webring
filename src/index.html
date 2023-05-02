@@ -30,6 +30,11 @@
             text-align: center;
             font-style: italic;
         }
+
+        .table-container {
+            max-width: 100%;
+            overflow-x: auto;
+        }
     </style>
 </head>
 <body>
@@ -53,6 +58,8 @@
             people can get to the other sites in the ring from yours :)
         </p>
 
+        <p>replace [your username] in the below URLs (including the square brackets!) with your username when adding into your site</p>
+
         <h2>iframe</h2>
         <textarea>&lt;iframe src="https://silly.city/embed.html?user=[your username]" title="silly.city webring" frameborder="no"&gt;&lt;/iframe&gt;</textarea>
         
@@ -67,17 +74,21 @@
         <p class="random"><a href="/random"><img src="toma-wai.gif" alt="" class="inline-toma">random silly city citizen</a></p>
 
         <h2>citizens of silly city</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>User</th>
-                    <th>Website</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- MAGIC REPLACE -->
-            </tbody>
-        </table>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>User</th>
+                        <th>Website</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- MAGIC REPLACE -->
+                </tbody>
+            </table>
+        </div>
+        
     </div>
 </body>
 </html>
