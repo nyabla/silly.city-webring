@@ -1,6 +1,7 @@
 import citizens from './ring/citizens.json' assert { type: "json" }
 import * as fs from 'node:fs/promises'
 
+// replace MAGIC REPLACE with citizens
 const replace = '<!-- MAGIC REPLACE -->'
 
 let rows = ''
@@ -14,5 +15,9 @@ let file = await handle.readFile('utf-8')
 await handle.close()
 
 let result = file.replace(replace, rows)
+
+// replace COUNT with number of citizens
+const countReplace = '<!-- COUNT -->'
+result = result.replace(countReplace, citizens.length)
 
 await fs.writeFile('./static/index.html', result)
