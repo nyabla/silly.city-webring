@@ -103,7 +103,23 @@
         "user": "Snorps",
         "url": "http://snorps.net"
     },
-     {
+    {
+        "user": "Lydia",
+        "url": "https://lyd.city"
+    },
+    {
+        "user": "doqmeat",
+        "url": "https://doqmeat.com"
+    }, 
+    {
+        "user": "circular",
+        "url": "https://circulars.dev"
+    },
+    {
+        "user": "Alys",
+        "url": "https://alysrealm.neocities.org/"
+    },
+    {
         "user": "verybittericecream",
         "url": "https://oerrorpage.neocities.org/"
     }
