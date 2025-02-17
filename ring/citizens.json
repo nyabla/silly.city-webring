@@ -110,7 +110,7 @@
     {
         "user": "doqmeat",
         "url": "https://doqmeat.com"
-    }, 
+    },
     {
         "user": "circular",
         "url": "https://circulars.dev"
@@ -123,6 +123,10 @@
         "user": "verybittericecream",
         "url": "https://oerrorpage.neocities.org/"
     },
+    {
+        "user": "marshdotcom",
+        "url": "https://marshdotcom.neocities.org"
+    }, 
     {
         "user": "matty",
         "url": "https://transatlanticism.neocities.org/"
@@ -146,5 +150,17 @@
     {
         "user": "soni",
         "url": "https://soniweb.org"
+    },
+    {
+        "user": "whysofurious",
+        "url": "https://www.whysf.xyz/"
+    },
+    {
+        "user": "Leilukin",
+        "url": "https://leilukin.com/"
+    },
+    {
+        "user": "strix",
+        "url": "https://mormoroi.com/"
     }
 ]
