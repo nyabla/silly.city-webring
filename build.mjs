@@ -1,4 +1,4 @@
-import citizens from './ring/citizens.json' assert { type: "json" }
+import citizens from './ring/citizens.json' with { type: "json" }
 import * as fs from 'node:fs/promises'
 
 // replace MAGIC REPLACE with citizens
